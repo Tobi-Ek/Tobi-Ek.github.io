@@ -4,7 +4,7 @@ const checkbox = document.getElementById('toggle');
 
 
 
-// var str = "<p class = \"introhello\"><h1 class=\"text-primary\">Hello! <span id = \"emoji\" class = \"emoji animated\" onmouseover=\"bounce();\">&#x1f44b;&#x1f3fe;</span></h1> </p> <h2 class=\"introtagline\">I'm<span class=\"text-primary\"> Kenechukwu Ajufo</span>, a web developer based in Lagos, Nigeria. I am passionate about <strong>everything related to web development.</strong></h2>",
+// var str = "<p class = \"introhello\"><h1 class=\"text-primary\">Hello! <span id = \"emoji\" class = \"emoji animated\" onmouseover=\"bounce();\">&#x1f44b;&#x1f3fe;</span></h1> </p> <h2 class=\"introtagline\">I'm<span class=\"text-primary\"> Tobi Ekundayo</span>, a Data Anayst is based in Dublin, Ireland. I am passionate about <strong>providing valuable insights from data and developing innovative machine learning solutions.</strong></h2>",
 //     i = 0,
 //     isTag,
 //     text;
@@ -60,7 +60,7 @@ const hand = document.getElementById("emoji");
 
 var typed = new Typed('.element', {
     // Waits 1000ms after typing "First"
-    strings: ['everything related to web development.', 'building Recommender Systems.', 'Product Management.', 'Machine Learning.'],
+    strings: ['Visualization Dashboard', 'Machine Learning', 'Project Management', 'ML Applications', 'Deep Learning'],
     typeSpeed: 100,
     loop: true,
     loopCount: Infinity,
@@ -85,10 +85,12 @@ var typed = new Typed('.element', {
 
 
 var arr = [
-    { "Name": "Sentiment Analysis of Hotel Reviews using Deep Learning", "Link": "https://github.com/kxnxchukwu/DMML2Project", 'Description': '(Team of three) performed a sentiment analysis on Trip Advisor Reviews dataset. The project focused on using two Deep Learning models (LSTM and BERT) to predict the hotel’s rating using it’s reviews.', 'Tech': 'scikit-learn | TensorFlow | PyTorch | Keras'},
-    { "Name": "Analysis on the Relationship between Population Growth Rate, Life Expectancy and the Gross National Income", "Link": "https://github.com/kxnxchukwu/DAPProject", 'Description': '(Team of three) analyzed three public datasets from ArcGIS Hub & Datahub. The objective of the project was to demonstrate the team’s knowledge of data wrangling (transforming data from one form to another) and Relational (PostgreSQL) & NoSQL (MongoDB) databases.', 'Tech': 'pymongo | psycopg2 | Pandas | requests'},
-    { "Name": "Exploring Student Academic Performance in Portugal using Machine Learning", "Link": "https://github.com/kxnxchukwu/DAPAProject", 'Description': 'Built a C5.0 Decision Tree Model to predict student academic performance.', 'Tech': 'R | R Studio | C50 | printr'},
-    { "Name": "London Underground High-Speed Line Simulation and Optimization", "Link": "https://github.com/kxnxchukwu/MSOProject", 'Description': 'The project involved discrete event simulation and optimization. The project modelled, simulated and optimized the London Old Oak Commons to Birmingham Interchange section of the London Underground high-speed line.', 'Tech': 'Python | SimPy | Pandas | Numpy'},
+    { "Name": "RecycliQ (A gamified recycling mobile app))", "Link": "https://github.com/Tobi-Ek/RecycliQ-Deep-Learning", 'Description': 'Developed an android mobile app (RecycliQ) that implemented an on-device deep learning framework to encourage the recycling of waste. The mobile app classifies scanned waste images into one of seven waste categories namely: e-waste, garbage, glass, metal, organic, paper, plastic.', 'Tech': 'Python | TensorFlow | Keras | TensorFlow Lite | Google Colab | Flutter | Dart | Adobe XD | VS Code'},
+	{ "Name": "Predictive Analysis of Retail Sales: Furniture and Home Furnishings", "Link": "https://github.com/Tobi-Ek/Predictive-Analysis-of-Retail-Sales-_-Furniture-and-Home-Furnishings", 'Description': 'Provided valuable data insights for strategic planning on furniture and home furnishings products by carrying out exploratory data analysis using Excel and PowerBI. Finally provided predictive analysis using Holt-Winters model with R programming language in well documented reports.', 'Tech': 'PowerBI | R | RStudio | Timeseries Forecast'},
+    { "Name": "Application of Database Systems and Analytics to Covid19 Disease", "Link": "https://github.com/Tobi-Ek/Application-of-Database-Systems-and-Analytics-to-Covid19-Disease", 'Description': 'Used python for web-scrapping data off websites, extracted XML data, stored these data into mongoDB, cleaned and saved the processed data into PostgreSQL and created data visualizations showing the global impact of COVID-19.', 'Tech': 'Python | Webscrapping | MongoDB | PostgreSQL | Pandas | MathLib | MS Excel'},
+    { "Name": "Evaluation of Machine Learning Algorithms", "Link": "https://github.com/Tobi-Ek/Evaluation-of-Machine-Learning-Algorithms", 'Description': 'Evaluated five different machine learning models using R programming language on housing price, bank loan and crimes data.', 'Tech': 'R | R Studio'},
+    { "Name": "London Underground High-Speed Line Simulation and Optimization", "Link": "https://github.com/Tobi-Ek/Simulation-and-Optimisation-of-HS2-Train-Line-From-London-to-Birmingham", 'Description': 'The project involved discrete event simulation and optimization. The project modelled, simulated and optimized the London Old Oak Commons to Birmingham Interchange section of the London Underground high-speed line.', 'Tech': 'Python | SimPy | Pandas | Numpy'},
+	{ "Name": "GreenFinder Deep Learning", "Link": "https://github.com/Tobi-Ek/GreenFinder-Deep-Learning", 'Description': 'Developed an android mobile app (GreenFinder), trained, and evaluated two deep learning image classification models for the use-case. The mobile app classifies scanned fruits, vegetables and flowers, as well as provides knowledgeable information on each classified item.', 'Tech': 'Python | TensorFlow | Keras | TensorFlow Lite | Knowledge Graph | MS Excel | Android Studio'},
   ];
 
 $.each(arr, function (i) {
