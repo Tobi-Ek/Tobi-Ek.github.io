@@ -33,9 +33,9 @@ const checkbox = document.getElementById('toggle');
 
 checkbox.addEventListener('change', (event) => {
   if (event.target.checked) {
-    document.getElementById('pagestyle').setAttribute('href', "style.css");
-  } else {
     document.getElementById('pagestyle').setAttribute('href', "dark.css");
+  } else {
+    document.getElementById('pagestyle').setAttribute('href', "style.css");
   }
 })
 
