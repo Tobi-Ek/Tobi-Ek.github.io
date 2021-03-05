@@ -61,7 +61,7 @@ const hand = document.getElementById("emoji");
 var typed = new Typed('.element', {
     // Waits 1000ms after typing "First"
     strings: ['Machine Learning.', 'Business Intelligence.', 'Data Visualization.', 'Deep Learning.', 'ML Applications.', 'Project Management.'],
-    typeSpeed: 200,
+    typeSpeed: 100,
     loop: true,
     loopCount: Infinity,
   });
