@@ -24,10 +24,10 @@ const checkbox = document.getElementById('toggle');
 // }());
 
 if (hour <= 7 || hour >= 18) {
-    document.getElementById('pagestyle').setAttribute('href', "style.css");
+    document.getElementById('pagestyle').setAttribute('href', "dark.css");
 }
 else {
-    document.getElementById('pagestyle').setAttribute('href', "dark.css");
+    document.getElementById('pagestyle').setAttribute('href', "style.css");
     document.getElementById("toggle").checked = false;
 }
 
@@ -60,7 +60,7 @@ const hand = document.getElementById("emoji");
 
 var typed = new Typed('.element', {
     // Waits 1000ms after typing "First"
-    strings: ['Visualization Dashboard', 'Machine Learning', 'Project Management', 'ML Applications', 'Deep Learning'],
+    strings: ['Machine Learning', 'Data Visualization', 'Deep Learning', 'ML Applications', 'Project Management'],
     typeSpeed: 100,
     loop: true,
     loopCount: Infinity,
