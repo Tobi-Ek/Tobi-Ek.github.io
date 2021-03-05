@@ -24,18 +24,18 @@ const checkbox = document.getElementById('toggle');
 // }());
 
 if (hour <= 7 || hour >= 18) {
-    document.getElementById('pagestyle').setAttribute('href', "dark.css");
+    document.getElementById('pagestyle').setAttribute('href', "style.css");
 }
 else {
-    document.getElementById('pagestyle').setAttribute('href', "style.css");
+    document.getElementById('pagestyle').setAttribute('href', "dark.css");
     document.getElementById("toggle").checked = false;
 }
 
 checkbox.addEventListener('change', (event) => {
   if (event.target.checked) {
-    document.getElementById('pagestyle').setAttribute('href', "dark.css");
-  } else {
     document.getElementById('pagestyle').setAttribute('href', "style.css");
+  } else {
+    document.getElementById('pagestyle').setAttribute('href', "dark.css");
   }
 })
 
