@@ -60,7 +60,7 @@ const hand = document.getElementById("emoji");
 
 var typed = new Typed('.element', {
     // Waits 1000ms after typing "First"
-    strings: ['Machine Learning', 'Data Visualization', 'Deep Learning', 'ML Applications', 'Project Management'],
+    strings: ['Machine Learning.', 'Data Visualization.', 'Deep Learning.', 'ML Applications.', 'Project Management.'],
     typeSpeed: 100,
     loop: true,
     loopCount: Infinity,
@@ -94,7 +94,7 @@ var arr = [
   ];
 
 $.each(arr, function (i) {
-    var templateString = '<div style="margin:20px" class="card col-lg-5 mx-auto col-sm-12" style="width: 18rem"> <div class="card-body"> <div class="card-title d-flex"><i class="fas fa-folder-open fa-3x mr-auto"></i>  <a href='+ arr[i].Link + '><i class="fab fa-github fa-3x ml-auto"></i></a> </div> <h6 class="card-subtitle mt-2 mb-2 text-muted">' + arr[i].Name +  '</h6> <p class="card-text">' + arr[i].Description + '</p> <p class="card-text text-muted">' + arr[i].Tech + '</p></div></div> ';
+    var templateString = '<div style="margin:40px" class="card col-lg-5 mx-auto col-sm-12" style="width: 18rem"> <div class="card-body"> <div class="card-title d-flex"><i class="fas fa-folder-open fa-3x mr-auto"></i>  <a href='+ arr[i].Link + '><i class="fab fa-github fa-3x ml-auto"></i></a> </div> <h6 class="card-subtitle mt-2 mb-2 text-muted">' + arr[i].Name +  '</h6> <p class="card-text">' + arr[i].Description + '</p> <p class="card-text text-muted">' + arr[i].Tech + '</p></div></div> ';
     $('#test').append(templateString);
 })
 
