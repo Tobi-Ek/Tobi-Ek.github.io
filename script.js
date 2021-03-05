@@ -28,7 +28,7 @@ if (hour <= 7 || hour >= 18) {
 }
 else {
     document.getElementById('pagestyle').setAttribute('href', "style.css");
-    document.getElementById("toggle").checked = true;
+    document.getElementById("toggle").checked = false;
 }
 
 checkbox.addEventListener('change', (event) => {
