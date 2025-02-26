@@ -60,7 +60,7 @@ const hand = document.getElementById("emoji");
 
 var typed = new Typed('.element', {
     // Waits 1000ms after typing "First"
-    strings: ['Machine Learning.', 'Business Intelligence.', 'Data Visualization.', 'Deep Learning.', 'ML Applications.', 'Project Management.'],
+    strings: ['Data Analysis.', 'Data Engineering.', 'Machine Learning.', 'Business Intelligence.', 'Data Visualization.', 'Deep Learning.', 'ML Applications.', 'Project Management.'],
     typeSpeed: 100,
     loop: true,
     loopCount: Infinity,
@@ -85,7 +85,8 @@ var typed = new Typed('.element', {
 
 
 var arr = [
-    { "Name": "RecycliQ (A gamified recycling mobile app)", "Link": "https://github.com/Tobi-Ek/RecycliQ-Deep-Learning", 'Description': 'Developed an android mobile app (RecycliQ) that implemented an on-device deep learning framework to encourage the recycling of waste. The mobile app classifies scanned waste images into one of seven waste categories namely: e-waste, garbage, glass, metal, organic, paper, plastic.', 'Tech': 'Python | TensorFlow | Keras | TensorFlow Lite | Google Colab | Flutter | Dart | Adobe XD | VS Code'},
+    { "Name": "Data Farmland", "Link": "https://github.com/Tobi-Ek/Deep-Farmland", 'Description': 'Data Farmland is a solution designed to offer a comprehensive view of enterprise data architecture and metadata, streamlining the data lifecycle management process for businesses.', 'Tech': 'Python | PowerBI | Tableau | Excel | Wix | '},
+	{ "Name": "RecycliQ (A gamified recycling mobile app)", "Link": "https://github.com/Tobi-Ek/RecycliQ-Deep-Learning", 'Description': 'Developed an android mobile app (RecycliQ) that implemented an on-device deep learning framework to encourage the recycling of waste. The mobile app classifies scanned waste images into one of seven waste categories namely: e-waste, garbage, glass, metal, organic, paper, plastic.', 'Tech': 'Python | TensorFlow | Keras | TensorFlow Lite | Google Colab | Flutter | Dart | Adobe XD | VS Code'},
 	{ "Name": "Predictive Analysis of Retail Sales: Furniture and Home Furnishings", "Link": "https://github.com/Tobi-Ek/Predictive-Analysis-of-Retail-Sales-_-Furniture-and-Home-Furnishings", 'Description': 'Provided valuable data insights for strategic planning on furniture and home furnishings products by carrying out exploratory data analysis using Excel and PowerBI. Finally provided predictive analysis using Holt-Winters model with R programming language in well documented reports.', 'Tech': 'PowerBI | R | RStudio | Timeseries Forecast'},
     { "Name": "Application of Database Systems and Analytics to Covid19 Disease", "Link": "https://github.com/Tobi-Ek/Application-of-Database-Systems-and-Analytics-to-Covid19-Disease", 'Description': 'Used python for web-scrapping data off websites, extracted XML data, stored these data into mongoDB, cleaned and saved the processed data into PostgreSQL and created data visualizations showing the global impact of COVID-19.', 'Tech': 'Python | Webscrapping | MongoDB | PostgreSQL | Pandas | MathLib | MS Excel'},
     { "Name": "Evaluation of Machine Learning Algorithms", "Link": "https://github.com/Tobi-Ek/Evaluation-of-Machine-Learning-Algorithms", 'Description': 'Evaluated five (5) different machine learning models using R programming language on housing price, bank loan and crimes data.', 'Tech': 'R | R Studio'},
